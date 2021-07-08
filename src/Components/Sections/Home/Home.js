@@ -37,7 +37,7 @@ export default class Home extends Component{
                     </div>
 
                     <div className="home__data">
-                        <h1 className="home__title">Hi, I'm Rui</h1>
+                        <h1 className="home__title">Hi, I'm RuiB</h1>
                         <h3 className="home__subtitle">
                             Eletrical&Computer Engineer
                             <i className="uil uil-lightbulb-alt home__bulb-icon"></i>      
