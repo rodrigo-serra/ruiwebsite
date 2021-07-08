@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ruiwebsite/static/css/main.67738a97.chunk.css",
+    "main.js": "/ruiwebsite/static/js/main.2ab4c3a0.chunk.js",
+    "main.js.map": "/ruiwebsite/static/js/main.2ab4c3a0.chunk.js.map",
+    "runtime-main.js": "/ruiwebsite/static/js/runtime-main.a94538d2.js",
+    "runtime-main.js.map": "/ruiwebsite/static/js/runtime-main.a94538d2.js.map",
+    "static/css/2.8cfb67ea.chunk.css": "/ruiwebsite/static/css/2.8cfb67ea.chunk.css",
+    "static/js/2.1fde8369.chunk.js": "/ruiwebsite/static/js/2.1fde8369.chunk.js",
+    "static/js/2.1fde8369.chunk.js.map": "/ruiwebsite/static/js/2.1fde8369.chunk.js.map",
+    "index.html": "/ruiwebsite/index.html",
+    "static/css/2.8cfb67ea.chunk.css.map": "/ruiwebsite/static/css/2.8cfb67ea.chunk.css.map",
+    "static/css/main.67738a97.chunk.css.map": "/ruiwebsite/static/css/main.67738a97.chunk.css.map",
+    "static/js/2.1fde8369.chunk.js.LICENSE.txt": "/ruiwebsite/static/js/2.1fde8369.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a94538d2.js",
+    "static/css/2.8cfb67ea.chunk.css",
+    "static/js/2.1fde8369.chunk.js",
+    "static/css/main.67738a97.chunk.css",
+    "static/js/main.2ab4c3a0.chunk.js"
+  ]
+}
