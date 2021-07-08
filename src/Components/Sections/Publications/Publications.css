@@ -1,0 +1,114 @@
+/*==================== IMPORT PROJECTS CSS FILES ====================*/
+@import "../../../App.css";
+
+/*==================== PUBLICATIONS ====================*/
+
+/* .testimonial {
+  background-color: lemonchiffon;
+} */
+
+/* .publications__content {
+  display: grid;
+  grid-template-rows: 30% 10% 20% 25% 15%;
+  background-color: rebeccapurple;
+  height: auto !important;
+} */
+
+.publications__data,
+.publications__header {
+  display: flex;
+}
+
+.publications__data {
+  /* background-color: rebeccapurple; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-top: var(--mb-2-5);
+  margin-bottom: var(--mb-0-5);
+}
+
+.publications__header {
+  align-items: center;
+}
+
+.publications__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: var(--mb-0-75);
+}
+
+.publications__name {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.publications__icon-link {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.publications__type {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  margin-bottom: var(--mb-0-5);
+}
+
+.publications__info-author {
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--mb-0-5);
+}
+.publications__author {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+}
+.publications__author-text {
+  font-size: var(--smaller-font-size);
+}
+
+.publicications__info-keywords {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--mb-0-5);
+}
+.publications__keywords {
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+}
+.publications__keywords-text {
+  font-size: var(--smaller-font-size);
+}
+
+.publications__description {
+  margin-bottom: var(--mb-2-5);
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 97% !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color) !important;
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For medium devices */
+/**** width: 582px, height: 658px *****/
+@media screen and (min-width: 568px) {
+  .publications__content {
+    display: grid;
+    grid-template-rows: 30% 10% 20% 25% 15%;
+    height: auto !important;
+  }
+}
+/* For large devices */
+/**** width: 1024px, height: 658px *****/
+@media screen and (min-width: 1024px) {
+  .publications__container {
+    margin: auto;
+  }
+}

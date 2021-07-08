@@ -1,0 +1,81 @@
+/*==================== IMPORT PROJECTS CSS FILES ====================*/
+@import "../../../App.css";
+
+/*==================== ABOUT ====================*/
+/* .about {
+  background-color: lemonchiffon;
+} */
+
+/* .about__container {
+  background-color: salmon;
+} */
+
+.about__img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+/* .about__data {
+    background-color: sandybrown;
+  } */
+
+.about__description {
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+  font-size: var(--small-font-size);
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For medium devices */
+/**** width: 582px, height: 658px *****/
+@media screen and (min-width: 568px) {
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__img {
+    order: 2;
+    width: auto;
+  }
+
+  .about__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: var(--mb-0-5);
+    margin-bottom: var(--mb-0-5);
+  }
+
+  .about__description {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}
+
+/**** width: 768px, height: 658px *****/
+@media screen and (min-width: 768px) {
+  .about__container {
+    column-gap: 5rem;
+  }
+
+  .about__data {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* For large devices */
+/**** width: 1024px, height: 658px *****/
+@media screen and (min-width: 1024px) {
+  .about__container {
+    margin: auto;
+  }
+
+  .about__data {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+}

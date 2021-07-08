@@ -1,0 +1,197 @@
+/*==================== IMPORT PROJECTS CSS FILES ====================*/
+@import "../../../App.css";
+
+/*==================== activities ====================*/
+/* .activities {
+  background-color: rgb(253, 245, 170);
+} */
+
+.activities__container {
+  row-gap: 0;
+}
+
+.activities__header {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: var(--mb-1); */
+  cursor: pointer;
+
+  /* border-style: solid;
+  border-radius: 0.5rem;
+  border-color: var(--first-color); */
+
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  border-left-style: solid;
+  border-left-color: var(--first-color);
+  border-right-style: solid;
+  border-right-color: var(--first-color);
+  border-top-style: solid;
+  border-top-color: var(--first-color);
+}
+
+.activities__close > .activities__header {
+  margin-bottom: var(--mb-1);
+
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+  border-bottom-style: solid;
+  border-bottom-color: var(--first-color);
+}
+
+.activities__icon,
+.activities__arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-left: var(--mb-1);
+}
+
+.activities__icon {
+  margin-right: var(--mb-0-75);
+}
+
+.activities__title {
+  font-size: var(--h3-font-size);
+}
+
+.activities__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.activities__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.activities__list {
+  row-gap: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  /* background-color: var(--first-color-lighter); */
+  background-color: var(--container-color);
+
+  /* border-style: solid;
+  border-radius: 0.5rem;
+  border-color: var(--first-color); */
+
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+  border-top-style: solid;
+  border-top-color: var(--first-color);
+  border-left-style: solid;
+  border-left-color: var(--first-color);
+  border-right-style: solid;
+  border-right-color: var(--first-color);
+  border-bottom-style: solid;
+  border-bottom-color: var(--first-color);
+}
+
+.activities__data-initial {
+  margin-top: var(--mb-1-5);
+}
+
+.activities__data-last {
+  margin-bottom: var(--mb-1-5);
+}
+
+.activities__info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--mb-0-5);
+}
+
+.activities__info-title {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.activities__info-text {
+  font-size: var(--small-font-size);
+  /* font-weight: var(--font-medium); */
+}
+
+.activities__info-date {
+  margin-top: var(--mb-1);
+  font-size: var(--smaller-font-size);
+  /* font-weight: var(--font-medium); */
+}
+
+.activities__titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.activities__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.activities__separator {
+  border-top: 2px dotted var(--first-color);
+}
+
+.activities__bar,
+.activities__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.activities__bar {
+  background-color: var(--first-color-lighter);
+}
+
+.activities__percentage {
+  display: block;
+  background-color: var(--first-color);
+}
+
+/* DESCENDANT SELECTOR */
+/* Select all elements that are descendants of a specified parent. */
+.activities__close .activities__list {
+  display: none;
+  /* height: 0; */
+  overflow: hidden;
+}
+
+.activities__open .activities__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.activities__open .activities__arrow {
+  transform: rotate(-180deg);
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .activities__title {
+    font-size: var(--normal-font-size);
+  }
+}
+
+/* For medium devices */
+/**** width: 582px, height: 658px *****/
+@media screen and (min-width: 568px) {
+  .activities__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .activities__title {
+    font-size: var(--normal-font-size);
+  }
+}
+
+/* For large devices */
+/**** width: 1024px, height: 658px *****/
+@media screen and (min-width: 1024px) {
+  .activities__container {
+    margin: auto;
+  }
+}
