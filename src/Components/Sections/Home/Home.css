@@ -127,6 +127,7 @@
 @media screen and (min-width: 768px) {
   .home__container {
     row-gap: 5rem;
+    margin: auto;
   }
 
   .home__content {
@@ -142,9 +143,9 @@
 /* For large devices */
 /**** width: 1024px, height: 658px *****/
 @media screen and (min-width: 1024px) {
-  .home__container {
+  /* .home__container {
     margin: auto;
-  }
+  } */
 
   .home__blob {
     width: 320px;

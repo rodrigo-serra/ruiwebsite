@@ -105,10 +105,18 @@
     height: auto !important;
   }
 }
-/* For large devices */
-/**** width: 1024px, height: 658px *****/
-@media screen and (min-width: 1024px) {
+
+/* For medium devices */
+/**** width: 768px, height: 658px *****/
+@media screen and (min-width: 768px) {
   .publications__container {
     margin: auto;
   }
 }
+/* For large devices */
+/**** width: 1024px, height: 658px *****/
+/* @media screen and (min-width: 1024px) {
+  .publications__container {
+    margin: auto;
+  }
+} */
