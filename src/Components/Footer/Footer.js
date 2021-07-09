@@ -16,15 +16,15 @@ export default function Footer() {
                     </div>
 
                     <div className="footer__socials">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="footer__social">
+                        <a href="https://www.facebook.com/rui.bettencourt.716/" target="_blank" rel="noreferrer" className="footer__social">
                             <i className="uil uil-facebook-f"></i>
                         </a>
                         
-                        <a href="https://pt.linkedin.com/" target="_blank" rel="noreferrer" className="footer__social">
+                        <a href="https://www.linkedin.com/in/rui-bettencourt/" target="_blank" rel="noreferrer" className="footer__social">
                             <i className="uil uil-linkedin-alt"></i>
                         </a>
 
-                        <a href="https://github.com/" target="_blank" rel="noreferrer" className="footer__social">
+                        <a href="https://github.com/rui-bettencourt" target="_blank" rel="noreferrer" className="footer__social">
                             <i className="uil uil-github-alt"></i>
                         </a>
                     </div>

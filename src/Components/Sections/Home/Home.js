@@ -7,13 +7,13 @@ export default class Home extends Component{
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <div className="home__social">
-                        <a href="https://pt.linkedin.com/" target="_blank" rel="noreferrer" className="home__social-icon">
+                        <a href="https://www.linkedin.com/in/rui-bettencourt/" target="_blank" rel="noreferrer" className="home__social-icon">
                             <i className="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://pt-pt.facebook.com/" target="_blank" rel="noreferrer" className="home__social-icon">
+                        <a href="https://www.facebook.com/rui.bettencourt.716/" target="_blank" rel="noreferrer" className="home__social-icon">
                             <i className="uil uil-facebook"></i>
                         </a>
-                        <a href="https://github.com/" target="_blank" rel="noreferrer" className="home__social-icon">
+                        <a href="https://github.com/rui-bettencourt" target="_blank" rel="noreferrer" className="home__social-icon">
                             <i className="uil uil-github-alt"></i>
                         </a>
                     </div>
