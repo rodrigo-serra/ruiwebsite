@@ -34,7 +34,7 @@ export default class Home extends Component{
                                 <image className="home__blob-img" href="./Assets/imgs/profile.png" xlinkHref="./Assets/imgs/profile.png" x="12" y="18"/>
                             </g>
                         </svg> */}
-                        <object data="Home.svg" type="image/svg+xml"></object>
+                        <object data="./Assets/imgs/Home.svg" type="image/svg+xml"></object>
                     </div>
 
                     <div className="home__data">
