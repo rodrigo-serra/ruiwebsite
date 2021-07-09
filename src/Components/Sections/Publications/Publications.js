@@ -60,7 +60,7 @@ export default function Publications() {
                         
                         <div className="publicications__info-keywords">
                             <p className="publications__keywords">Keywords</p>
-                            <p className="publications__keywords-text">Navigation, Localization, Service Robots, Smart Cities, Indoor Spaces, Guiding, People Following, Waypoint Navigation, Dynamic Goal</p>
+                            <p className="publications__keywords-text">Autonomous Firefighting, Autonomous Construction, Service Robots, Robot Cooperation, Robotic Competition</p>
                         </div>
 
                         <a href="https://ieeexplore.ieee.org/document/9429771" target="_blank" rel="noreferrer" className="button2 button--flex2">
