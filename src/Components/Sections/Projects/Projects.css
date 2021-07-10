@@ -35,11 +35,13 @@
 
 /* For svg elements */
 .projects__icon2 {
+  /* background-color: rgb(153, 153, 51); */
   display: block;
   fill: var(--first-color);
   margin-bottom: var(--mb-0-5);
 }
 .projects__icon3 {
+  /* background-color: rgb(153, 153, 51); */
   display: block;
   font-size: 1.5rem;
   stroke: var(--first-color);
@@ -191,8 +193,8 @@
 
   .projects__icon2,
   .projects__icon3 {
-    width: 55px !important;
-    height: 55px !important;
+    width: 65px !important;
+    height: 65px !important;
   }
 
   .projects__modal-content {
