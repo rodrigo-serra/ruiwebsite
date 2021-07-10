@@ -58,7 +58,7 @@ export default class Header2 extends Component {
 
         // Change favicon
         let favicon = document.getElementById("favicon");
-        console.log(favicon);
+        // console.log(favicon);
         if(this.getCurrentTheme() === "dark") {
             favicon.href = "./Assets/imgs/ruiico-dark.ico";
         } else {
