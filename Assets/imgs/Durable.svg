@@ -21,9 +21,9 @@
         <path id="Vector 8" d="M130 77L144.914 72" stroke="#CACACA" stroke-width="2"/>
         <path id="Vector 11" d="M14.5 112.5V127.5" stroke="#CACACA" stroke-width="2"/>
     </g>
-    <!-- <defs>
+    <defs>
         <clipPath id="clip0">
             <rect width="171" height="171" fill="white"/>
         </clipPath>
-    </defs> -->
+    </defs>
 </svg>

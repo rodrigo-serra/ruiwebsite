@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ruiwebsite/static/css/main.d0c26b5a.chunk.css",
-    "main.js": "/ruiwebsite/static/js/main.7cec1045.chunk.js",
-    "main.js.map": "/ruiwebsite/static/js/main.7cec1045.chunk.js.map",
+    "main.css": "/ruiwebsite/static/css/main.6e0070e0.chunk.css",
+    "main.js": "/ruiwebsite/static/js/main.afe6c57e.chunk.js",
+    "main.js.map": "/ruiwebsite/static/js/main.afe6c57e.chunk.js.map",
     "runtime-main.js": "/ruiwebsite/static/js/runtime-main.a94538d2.js",
     "runtime-main.js.map": "/ruiwebsite/static/js/runtime-main.a94538d2.js.map",
     "static/css/2.8cfb67ea.chunk.css": "/ruiwebsite/static/css/2.8cfb67ea.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.1fde8369.chunk.js.map": "/ruiwebsite/static/js/2.1fde8369.chunk.js.map",
     "index.html": "/ruiwebsite/index.html",
     "static/css/2.8cfb67ea.chunk.css.map": "/ruiwebsite/static/css/2.8cfb67ea.chunk.css.map",
-    "static/css/main.d0c26b5a.chunk.css.map": "/ruiwebsite/static/css/main.d0c26b5a.chunk.css.map",
+    "static/css/main.6e0070e0.chunk.css.map": "/ruiwebsite/static/css/main.6e0070e0.chunk.css.map",
     "static/js/2.1fde8369.chunk.js.LICENSE.txt": "/ruiwebsite/static/js/2.1fde8369.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a94538d2.js",
     "static/css/2.8cfb67ea.chunk.css",
     "static/js/2.1fde8369.chunk.js",
-    "static/css/main.d0c26b5a.chunk.css",
-    "static/js/main.7cec1045.chunk.js"
+    "static/css/main.6e0070e0.chunk.css",
+    "static/js/main.afe6c57e.chunk.js"
   ]
 }
