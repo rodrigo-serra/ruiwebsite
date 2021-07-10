@@ -56,6 +56,15 @@ export default class Header2 extends Component {
         localStorage.setItem("selected-theme", this.getCurrentTheme());
         localStorage.setItem("selected-icon", this.getCurrentIcon());
 
+        // Change favicon
+        let favicon = document.getElementById("favicon");
+        console.log(favicon);
+        if(this.getCurrentTheme() === "dark") {
+            favicon.href = "./Assets/imgs/ruiico-dark.ico";
+        } else {
+            favicon.href = "./Assets/imgs/ruiico.ico";
+        }
+
     }
     
     componentDidMount() {
@@ -101,6 +110,14 @@ export default class Header2 extends Component {
         if(selectedTheme) {
             document.body.classList[selectedTheme === "dark" ? "add" : "remove"](darkTheme);
             themeButton.classList[selectedIcon === "uil-moon" ? "add" : "remove"](iconTheme);
+
+            // Change favicon
+             let favicon = document.getElementById("favicon");
+             if(this.getCurrentTheme() === "dark") {
+                 favicon.href = "%PUBLIC_URL%/Assets/imgs/ruiico-dark.ico";
+             } else {
+                 favicon.href = "%PUBLIC_URL%/Assets/imgs/ruiico.ico";
+             }
         }
     }
     
