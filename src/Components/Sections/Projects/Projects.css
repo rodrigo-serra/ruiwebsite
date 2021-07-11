@@ -45,7 +45,7 @@
   display: block;
   font-size: 1.5rem;
   stroke: var(--first-color);
-  stroke-width: 0.26em;
+  stroke-width: 0.15em;
   margin-bottom: var(--mb-0-5);
 }
 
@@ -193,8 +193,8 @@
 
   .projects__icon2,
   .projects__icon3 {
-    width: 65px !important;
-    height: 65px !important;
+    width: 105px !important;
+    height: 105px !important;
   }
 
   .projects__modal-content {
