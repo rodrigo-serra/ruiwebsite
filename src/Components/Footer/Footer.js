@@ -45,7 +45,8 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <p className="footer__copy">&#169; Rodrigo Serra. All rights reserved.</p>
+                {/* <p className="footer__copy">&#169; Rodrigo Serra. All rights reserved.</p> */}
+                <p className="footer__copy">Website designed by Rodrigo Serra.</p>
             </div>
         </footer>
     )
