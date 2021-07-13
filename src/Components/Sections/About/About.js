@@ -14,7 +14,7 @@ export default function About() {
 
                 <div className="about__data">
                     <p className="about__description">
-                        Born and raised in São Jorge, Azores, I've moved to Lisbon right after finishing 
+                        Born and raised in <a className="about__description-link" href="https://www.google.com/maps/place/S%C3%A3o+Jorge/@34.75115,-26.1269267,5.67z/data=!4m5!3m4!1s0xb47b6bc0abe5a6f:0xd4e4a79ba647e427!8m2!3d38.6409678!4d-28.0303189" target="_blank" rel="noreferrer" >São Jorge</a>, Azores, I've moved to Lisbon right after finishing 
                         High School to pursue my dream, a carrier in Robotics.
                     </p>
                     <p className="about__description">
