@@ -12,6 +12,10 @@ export default function Footer() {
                             Eletrical&Computer Engineer
                             <i className="uil uil-lightbulb-alt footer-icon-bulb"></i>
                         </span>
+                        <span className="footer__subtitle">
+                            Roboticist
+                            <i className="uil uil-robot footer-icon-bulb"></i>
+                        </span>
                         <p className="footer__mail">rui.bettencourt@tecnico.ulisboa.pt</p>
                     </div>
 

@@ -42,10 +42,10 @@ export default class Home extends Component{
                             Eletrical&Computer Engineer
                             <i className="uil uil-lightbulb-alt home__bulb-icon"></i>      
                         </h3>
-                        <h3 className="home__subtitle">
+                        {/* <h3 className="home__subtitle">
                             Roboticist
                             <i className="uil uil-robot home__bulb-icon"></i>      
-                        </h3>
+                        </h3> */}
                         <p className="home__description">PhD student at Instituto Superior Técnico, UNL.</p>
 
                         <a download="" href="./Assets/docs/CVRuiBettencourt.pdf" className="button button--flex">
