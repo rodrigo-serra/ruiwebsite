@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ruiwebsite/static/css/main.c59f6887.chunk.css",
-    "main.js": "/ruiwebsite/static/js/main.4eb921cf.chunk.js",
-    "main.js.map": "/ruiwebsite/static/js/main.4eb921cf.chunk.js.map",
-    "runtime-main.js": "/ruiwebsite/static/js/runtime-main.a94538d2.js",
-    "runtime-main.js.map": "/ruiwebsite/static/js/runtime-main.a94538d2.js.map",
-    "static/css/2.8cfb67ea.chunk.css": "/ruiwebsite/static/css/2.8cfb67ea.chunk.css",
-    "static/js/2.1fde8369.chunk.js": "/ruiwebsite/static/js/2.1fde8369.chunk.js",
-    "static/js/2.1fde8369.chunk.js.map": "/ruiwebsite/static/js/2.1fde8369.chunk.js.map",
-    "index.html": "/ruiwebsite/index.html",
-    "static/css/2.8cfb67ea.chunk.css.map": "/ruiwebsite/static/css/2.8cfb67ea.chunk.css.map",
-    "static/css/main.c59f6887.chunk.css.map": "/ruiwebsite/static/css/main.c59f6887.chunk.css.map",
-    "static/js/2.1fde8369.chunk.js.LICENSE.txt": "/ruiwebsite/static/js/2.1fde8369.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.c59f6887.chunk.css",
+    "main.js": "/static/js/main.4eb921cf.chunk.js",
+    "main.js.map": "/static/js/main.4eb921cf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4268d7fc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4268d7fc.js.map",
+    "static/css/2.8cfb67ea.chunk.css": "/static/css/2.8cfb67ea.chunk.css",
+    "static/js/2.1fde8369.chunk.js": "/static/js/2.1fde8369.chunk.js",
+    "static/js/2.1fde8369.chunk.js.map": "/static/js/2.1fde8369.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.8cfb67ea.chunk.css.map": "/static/css/2.8cfb67ea.chunk.css.map",
+    "static/css/main.c59f6887.chunk.css.map": "/static/css/main.c59f6887.chunk.css.map",
+    "static/js/2.1fde8369.chunk.js.LICENSE.txt": "/static/js/2.1fde8369.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a94538d2.js",
+    "static/js/runtime-main.4268d7fc.js",
     "static/css/2.8cfb67ea.chunk.css",
     "static/js/2.1fde8369.chunk.js",
     "static/css/main.c59f6887.chunk.css",
