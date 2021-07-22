@@ -157,6 +157,21 @@ export default class Activities extends Component {
                                 <div className="activities__data activities__data-initial">
                                     <div className="activities__info">
                                         <p className="activities__info-title">Event name:</p>
+                                        <p className="activities__info-text">RoboCup@Home Virtual 2021</p>
+                                    </div>
+                                    <div className="activities__info">
+                                        <p className="activities__info-title">Institution/Organization:</p>
+                                        <p className="activities__info-text">Universidade de Lisboa, Instituto Superior Técnico, Portugal</p>
+                                    </div>
+
+                                    <p className="activities__info-date">(2021/06/22 - 2021/06/28)</p>
+                                </div>
+
+                                <div className="activities__separator"></div>
+                                    
+                                <div className="activities__data">
+                                    <div className="activities__info">
+                                        <p className="activities__info-title">Event name:</p>
                                         <p className="activities__info-text">SciRoc Camp GKK Symposium</p>
                                     </div>
                                     <div className="activities__info">
@@ -168,7 +183,7 @@ export default class Activities extends Component {
                                 </div>
 
                                 <div className="activities__separator"></div>
-
+                                
                                 <div className="activities__data">
                                     <div className="activities__info">
                                         <p className="activities__info-title">Event name:</p>
